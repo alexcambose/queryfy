@@ -1,4 +1,9 @@
-module.exports.queryfy = obj => {
+module.exports.queryfy = (obj, url) => {
+
+	//if the first parameter is the url that needs to be prepended
+	if(typeof obj === 'string' && typeof url === 'object')
+		url = [obj, obj = url][0]; //switch obj <-> url
+	
 	let query = '';
 	//iterate over object keys
 	for(let key of Object.keys(obj)){
@@ -8,7 +13,7 @@ module.exports.queryfy = obj => {
 	//remove last &
 	query = query.substring(0, query.length-1);
 
-	return '?' + query;
+	return url + '?' + query;
 }
 
 module.exports.deQueryfy = URI => {
