@@ -41,7 +41,6 @@ const q = require('queryfy');
 
 const path = 'https://something.com/?param1=This%20is%20param1&param2=This%20is%20param2';
 
-
 console.log(q.deQueryfy(path));
 // { param1: 'This is param1', param2: 'This is param2' }
 ```
