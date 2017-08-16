@@ -13,7 +13,7 @@ module.exports.queryfy = (obj, url) => {
 	//remove last &
 	query = query.substring(0, query.length-1);
 
-	return url + '?' + query;
+	return (url ? url + '?' : '') + query;
 }
 
 module.exports.deQueryfy = URI => {
