@@ -4,7 +4,7 @@
 ```
 npm install -S queryfy
 ```
-
+[npm](https://www.npmjs.com/package/queryfy)
 ## Usage
 
 ### Standard
