@@ -1,13 +1,14 @@
 {
   "name": "queryfy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility to create query strings from objects",
   "main": "index.js",
+  "repository": "Alexandru-Cambose/queryfy",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "web", "url", "request", "query", "string"
+    "web","browser", "url","uri","encode", "decode", "param", "parameter","request", "query", "string"
   ],
   "author": "Alexandru Cambose",
   "license": "MIT"
