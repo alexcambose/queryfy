@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Utility to create query strings from objects",
   "main": "index.js",
-  "repository": "Alexandru-Cambose/queryfy",
+  "repository": "alexcambose/queryfy",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
