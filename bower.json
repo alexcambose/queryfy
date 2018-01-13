@@ -1,0 +1,30 @@
+{
+  "name": "queryfy",
+  "description": "Utility to create query strings from objects",
+  "main": "index.js",
+  "authors": [
+    "Alexandru Cambose"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "web",
+    "browser",
+    "url",
+    "uri",
+    "encode",
+    "decode",
+    "param",
+    "parameter",
+    "request",
+    "query",
+    "string"
+  ],
+  "homepage": "https://github.com/alexcambose/queryfy",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
