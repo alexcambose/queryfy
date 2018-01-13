@@ -1,4 +1,4 @@
-module.exports.queryfy = (obj, url) => {
+const queryfy = (obj, url) => {
 
 	//if the first parameter is the url that needs to be prepended
 	if(typeof obj === 'string' && typeof url === 'object')
@@ -16,7 +16,7 @@ module.exports.queryfy = (obj, url) => {
 	return (url ? url + '?' : '') + query;
 }
 
-module.exports.deQueryfy = URI => {
+const deQueryfy = URI => {
 	let obj = {};
 	URISplit = URI.split('?');
 	//get the last part after ?
@@ -32,4 +32,10 @@ module.exports.deQueryfy = URI => {
 	return obj;
 }
 
-
+if (typeof window != "undefined") {
+	window.queryfy = queryfy;
+	window.deQueryfy = deQueryfy;
+} else {
+	module.exports.queryfy = queryfy;
+	module.exports.deQueryfy = deQueryfy;
+}

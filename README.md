@@ -1,10 +1,14 @@
 # queryfy
-
+[![Build Status](https://travis-ci.org/alexcambose/queryfy.svg?branch=master)](https://travis-ci.org/alexcambose/queryfy)
 ## Install
+```
+bower install queryfy
+```
+or
+[npm](https://www.npmjs.com/package/queryfy)
 ```
 npm install -S queryfy
 ```
-[npm](https://www.npmjs.com/package/queryfy)
 ## Usage
 
 ### Standard
