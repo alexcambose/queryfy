@@ -4,6 +4,9 @@
 ```
 bower install queryfy
 ```
+```html
+<script src="bower_components/queryfy/index.js"></script>
+```
 or
 [npm](https://www.npmjs.com/package/queryfy)
 ```
