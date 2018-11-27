@@ -20,6 +20,8 @@ const deQueryfy = URI => {
   URISplit = URI.split('?');
   //get the last part after ?
   let query = URISplit[URISplit.length - 1];
+  // if URI is "?" retrn empty object
+  if (!query) return {};
 
   const paramBlocks = query.split('&');
   //iterate over each param block
